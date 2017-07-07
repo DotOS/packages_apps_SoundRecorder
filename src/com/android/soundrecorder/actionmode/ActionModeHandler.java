@@ -53,7 +53,6 @@ public class ActionModeHandler implements FileListRecyclerAdapter.ActionModeList
     private Activity mActivity;
     private View mCustomView;
     private ButtonWithPopupMenu mSelectionButton;
-    private String mSelectedFormat;
     private ActionMode mActionMode;
     private ActionMode.Callback mCallback;
 
@@ -72,8 +71,6 @@ public class ActionModeHandler implements FileListRecyclerAdapter.ActionModeList
                 .getString(R.string.action_mode_deselect_all);
         mSelectionButton = (ButtonWithPopupMenu) mCustomView.findViewById(R.id.selection_button);
         mSelectionButton.loadPopupMenu(R.menu.select_all_popup_menu, mOnSelectAllClickListener);
-        mSelectedFormat = mCustomView.getResources().getString(
-                R.string.action_mode_selected);
 
         mSelectionSpinner = (Spinner) mCustomView.findViewById(R.id.selection_spinner);
 
@@ -105,7 +102,7 @@ public class ActionModeHandler implements FileListRecyclerAdapter.ActionModeList
 
     private void updateSelectionMenu(int selectedCount, int totalCount) {
         List<String> list = new ArrayList<String>();
-        list.add(String.format(mSelectedFormat, selectedCount));
+        list.add(mCustomView.getResources().getQuantityString(R.string.action_mode_selected, selectedCount, selectedCount));
         list.add(selectedCount >= totalCount ? mDeSelectedAllString : mSelectedAllString);
         ArrayAdapter adapter = new ArrayAdapter<>(mSelectionSpinner.getContext(),
                 R.layout.spinner_dropdown_item, list);
@@ -127,7 +124,7 @@ public class ActionModeHandler implements FileListRecyclerAdapter.ActionModeList
         });
         mSelectionSpinner.setSelection(SPINNER_COUNT_INDEX, true);
 
-        mSelectionButton.setText(String.format(mSelectedFormat, selectedCount));
+        mSelectionButton.setText(mCustomView.getResources().getQuantityString(R.string.action_mode_selected, selectedCount, selectedCount));
         MenuItem menuItem = mSelectionButton.findPopupMenuItem(R.id.action_select_all);
         menuItem.setTitle(selectedCount >= totalCount ? mDeSelectedAllString : mSelectedAllString);
     }

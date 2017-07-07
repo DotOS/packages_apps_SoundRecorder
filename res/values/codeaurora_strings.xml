@@ -57,7 +57,10 @@
     <string name="action_mode_menu_edit">Edit</string>
     <string name="action_mode_menu_share">Share</string>
     <string name="action_mode_menu_delete">Delete</string>
-    <string name="action_mode_selected">%1$d selected</string>
+    <plurals name="action_mode_selected">
+        <item quantity="one">%d item selected</item>
+        <item quantity="other">%d items selected</item>
+    </plurals>
     <string name="action_mode_select_all">Select all</string>
     <string name="action_mode_deselect_all">Deselect all</string>
 </resources>
