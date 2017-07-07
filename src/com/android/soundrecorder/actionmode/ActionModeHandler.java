@@ -102,7 +102,7 @@ public class ActionModeHandler implements FileListRecyclerAdapter.ActionModeList
 
     private void updateSelectionMenu(int selectedCount, int totalCount) {
         List<String> list = new ArrayList<String>();
-        list.add(mCustomView.getResources().getQuantityString(R.string.action_mode_selected, selectedCount, selectedCount));
+        list.add(mCustomView.getResources().getQuantityString(R.plurals.action_mode_selected, selectedCount, selectedCount));
         list.add(selectedCount >= totalCount ? mDeSelectedAllString : mSelectedAllString);
         ArrayAdapter adapter = new ArrayAdapter<>(mSelectionSpinner.getContext(),
                 R.layout.spinner_dropdown_item, list);
@@ -124,7 +124,7 @@ public class ActionModeHandler implements FileListRecyclerAdapter.ActionModeList
         });
         mSelectionSpinner.setSelection(SPINNER_COUNT_INDEX, true);
 
-        mSelectionButton.setText(mCustomView.getResources().getQuantityString(R.string.action_mode_selected, selectedCount, selectedCount));
+        mSelectionButton.setText(mCustomView.getResources().getQuantityString(R.plurals.action_mode_selected, selectedCount, selectedCount));
         MenuItem menuItem = mSelectionButton.findPopupMenuItem(R.id.action_select_all);
         menuItem.setTitle(selectedCount >= totalCount ? mDeSelectedAllString : mSelectedAllString);
     }
