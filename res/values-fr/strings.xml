@@ -43,7 +43,7 @@
   <!-- label shown when there is less than 1 minute of space left to record -->
   <string name="sec_available">Il reste <xliff:g id="SECONDS">%d</xliff:g> s</string>
   <!-- button to accept the current recording and return it to the caller -->
-  <string name="accept">Terminé</string>
+  <string name="accept">Prêt</string>
   <!-- button to discard the current recording and return to the caller -->
   <string name="discard">Supprimer</string>
   <!-- acknowlegement button in a number of dialogs -->

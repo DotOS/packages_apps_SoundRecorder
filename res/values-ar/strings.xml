@@ -50,8 +50,14 @@
   <string name="button_ok">حسناً</string>
   <!-- Do not translate. Format of the timer that shows how much has been recorded so far -->
   <!-- label shown before the user has recorded anything -->
+  <string name="press_record">Press: 0-MIC 1-Rx 2-Tx+Rx 3-AMR 4-EVRC 5-QCELP
+    6-AAC_MP4 9-AMR-WB A-AMR-WB-3GPP and Press record</string>
+  <string name="press_record2">اضغط تسجيل</string>
   <!-- label shown before the user has recorded anything -SSR support added-->
+  <string name="press_record_ssr">Press: 0-MIC 1-Rx 2-Tx+Rx 3-AMR 4-EVRC 5-QCELP
+    6-AAC_MP4 7-AAC_SSR 8-LPCM_SSR 9-AMR-WB A-AMR-WB-3GPP and Press record</string>
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
   <string name="audio_db_artist_name">تسجيلاتك</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
@@ -63,15 +69,35 @@
   <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card -->
   <string name="error_sdcard_access" product="default">‏لا يمكن الدخول إلى بطاقة SD.</string>
   <!-- shown as the message in a dialog when the recording is interrupted internally -->
+  <string name="error_record_interrupted">لقد انقطع التسجيل</string>
   <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
   <string name="error_app_internal">حدث خطأ داخلي بالتطبيق.</string>
   <!-- shown as the message in a dialog when the app encountered and unsupported format -->
+  <string name="error_app_unsupported">تنسيق غير مدعوم</string>
   <!-- shown as the message in a dialog when the recording could not be added to the media database -->
   <string name="error_mediadb_new_record">تعذر حفظ الصوت المسجل.</string>
   <!-- shown as the message in a dialog when the recording cannot be started while in call -->
+  <string name="error_mediadb_incall">يتم اعتماد هذا الخيار، فقط خلال المكالمة</string>
   <!-- shown as the message in a dialog when voice call recording is started for AAC format -->
+  <string name="error_mediadb_aacincall">تسجيل المكالمة الصوتية في صيغة AAC غير معتمد</string>
   <!-- shown as the dialog title when user selects recording format -->
+  <string name="format_setting">نوع الملف</string>
+  <string name="format_setting_aac_item">AAC</string>
+  <string name="format_setting_amr_item">AMR</string>
+  <string name="format_setting_3gpp_item">3GPP</string>
+  <string name="format_setting_wav_item">WAV</string>
+  <string name="storage_setting">موقع التخزين</string>
+  <string name="storage_setting_sdcard_item">بطاقة SD</string>
+  <string name="storage_setting_local_item">تخزين الهاتف</string>
+  <string name="no_phonestorage">تخزين الهاتف غير متصل</string>
+  <string name="keyboard">لوحة المفاتيح</string>
+  <string name="file_deleted">تم حذف الملف!</string>
+  <string name="in_call_record_error">خطأ في تسجل المكالمة.</string>
   <!-- Label shown during recording -->
+  <string name="recording_now">جار التسجيل...</string>
   <!-- shown as the message in a dialog when the recording file is saved successfully -->
+  <string name="file_saved">تم حفظ الملف</string>
+  <string name="file_saved_interrupt">تم إيقاف تسجيل وحفظ</string>
   <!-- shown as the message in a dialog when the recording file is discarded -->
+  <string name="file_discard">لقد تم تجاهل الملف</string>
 </resources>

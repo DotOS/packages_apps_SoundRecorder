@@ -30,6 +30,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Prefix of recording file name, like "Rec", default value is null -->
+  <string name="delete_dialog_confirm">Избриши</string>
   <plurals name="delete_selection_message">
     <item quantity="one">Бришете изабрану ставку?</item>
     <item quantity="few">Бришете изабране ставке?</item>
@@ -38,6 +39,7 @@
   <string name="share_title">Дели</string>
   <string name="action_mode_menu_edit">Уреди</string>
   <string name="action_mode_menu_share">Дели</string>
+  <string name="action_mode_menu_delete">Избриши</string>
   <string name="action_mode_select_all">Изабери све</string>
   <string name="action_mode_deselect_all">Опозови све изборе</string>
 </resources>

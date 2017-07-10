@@ -30,17 +30,31 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Prefix of recording file name, like "Rec", default value is null -->
+  <string name="save_dialog_title">Зберегти запис?</string>
+  <string name="rename_dialog_title">Перейменувати</string>
+  <string name="rename_dialog_info_null">Ім\'я файлу не може бути невизначеним.</string>
+  <string name="rename_dialog_info_exists">Така назва вже існує.</string>
+  <string name="rename_dialog_info_length_limit">Досягнуто максимальну кількість символів.</string>
   <string name="rename_dialog_save">Зберегти</string>
   <string name="delete_dialog_confirm">Видалити</string>
   <plurals name="delete_selection_message">
     <item quantity="one">Видалити вибраний елемент?</item>
     <item quantity="few">Видалити вибрані елементи?</item>
-    <item quantity="other">Delete selected items?</item>
+    <item quantity="other">Видалити вибрані елементи?</item>
   </plurals>
-  <string name="share_title">Надісл.</string>
+  <string name="share_title">Надіслати</string>
+  <string name="file_list_activity_label">Список записів</string>
+  <string name="file_list_empty">Немає записів</string>
+  <string name="file_list_FM">Записи з FM</string>
+  <string name="file_list_call">Записи дзвінків</string>
   <string name="action_mode_menu_edit">Редагувати</string>
-  <string name="action_mode_menu_share">Надісл.</string>
+  <string name="action_mode_menu_share">Надіслати</string>
   <string name="action_mode_menu_delete">Видалити</string>
+  <plurals name="action_mode_selected">
+    <item quantity="one">%d вибраний елемент</item>
+    <item quantity="few">%d вибраних елементів</item>
+    <item quantity="other">%d вибрано елементів</item>
+  </plurals>
   <string name="action_mode_select_all">Вибрати всі</string>
-  <string name="action_mode_deselect_all">Відмінити всі</string>
+  <string name="action_mode_deselect_all">Зняти вибір з усіх</string>
 </resources>

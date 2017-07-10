@@ -38,9 +38,9 @@
   <string name="rename_dialog_save">Сохранить</string>
   <string name="delete_dialog_confirm">Удалить</string>
   <plurals name="delete_selection_message">
-    <item quantity="one">Удалить выбранный файл?</item>
-    <item quantity="few">Удалить выбранные файлы?</item>
-    <item quantity="other">Удалить выбранные файлы?</item>
+    <item quantity="one">Удалить выбранный элемент?</item>
+    <item quantity="few">Удалить выбранные элементы?</item>
+    <item quantity="other">Удалить выбранные элементы?</item>
   </plurals>
   <string name="share_title">Отправить</string>
   <string name="file_list_activity_label">Мои записи</string>
@@ -50,6 +50,11 @@
   <string name="action_mode_menu_edit">Редактировать</string>
   <string name="action_mode_menu_share">Отправить</string>
   <string name="action_mode_menu_delete">Удалить</string>
+  <plurals name="action_mode_selected">
+    <item quantity="one">Выбран %d элемент</item>
+    <item quantity="few">Выбрано %d элемента</item>
+    <item quantity="other">Выбрано %d элементов</item>
+  </plurals>
   <string name="action_mode_select_all">Выбрать все</string>
   <string name="action_mode_deselect_all">Отменить все</string>
 </resources>

@@ -50,8 +50,14 @@
   <string name="button_ok">OK</string>
   <!-- Do not translate. Format of the timer that shows how much has been recorded so far -->
   <!-- label shown before the user has recorded anything -->
+  <string name="press_record">Натисніть: 0-Мікрофон 1-RX 2-TX+RX 3-AMR 4-EVRC 5-QCELP
+    6-AAC_MP4 9-AMR-WB A-AMR-WB-3GPP та запустіть запис</string>
+  <string name="press_record2">Натисність кнопку запису</string>
   <!-- label shown before the user has recorded anything -SSR support added-->
+  <string name="press_record_ssr">Натисніть: 0-MIC 1-Rx 2-Tx+Rx 3-AMR 4-EVRC 5-QCELP
+    6-AAC_MP4 7-AAC_SSR 8-LPCM_SSR 9-AMR-WB A-AMR-WB-3GPP та почніть запис</string>
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">рррр-мм-дд гг:мм:сс</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
   <string name="audio_db_artist_name">Ваші записи</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
@@ -63,15 +69,35 @@
   <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card -->
   <string name="error_sdcard_access" product="default">Неможливо отримати доступ до карти SD.</string>
   <!-- shown as the message in a dialog when the recording is interrupted internally -->
+  <string name="error_record_interrupted">Запис перерваний</string>
   <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
   <string name="error_app_internal">Внутрішня помилка програми.</string>
   <!-- shown as the message in a dialog when the app encountered and unsupported format -->
+  <string name="error_app_unsupported">Формат не підтримується</string>
   <!-- shown as the message in a dialog when the recording could not be added to the media database -->
   <string name="error_mediadb_new_record">Не вдається зберегти записане аудіо.</string>
   <!-- shown as the message in a dialog when the recording cannot be started while in call -->
+  <string name="error_mediadb_incall">Ця функція працює лише під час дзвінка</string>
   <!-- shown as the message in a dialog when voice call recording is started for AAC format -->
+  <string name="error_mediadb_aacincall">AAC запис голосового дзвінка не підтримується</string>
   <!-- shown as the dialog title when user selects recording format -->
+  <string name="format_setting">Тип файлу</string>
+  <string name="format_setting_aac_item">AAC</string>
+  <string name="format_setting_amr_item">AMR</string>
+  <string name="format_setting_3gpp_item">3GPP</string>
+  <string name="format_setting_wav_item">WAV</string>
+  <string name="storage_setting">Місце зберігання</string>
+  <string name="storage_setting_sdcard_item">SD-карта</string>
+  <string name="storage_setting_local_item">Пам\'ять пристрою</string>
+  <string name="no_phonestorage">Пам\'ять телефону демонтовано</string>
+  <string name="keyboard">Клавіатура</string>
+  <string name="file_deleted">Файл видалено!</string>
+  <string name="in_call_record_error">Помилка запису голосового дзвінка.</string>
   <!-- Label shown during recording -->
+  <string name="recording_now">Запис...</string>
   <!-- shown as the message in a dialog when the recording file is saved successfully -->
+  <string name="file_saved">Файл було збережено</string>
+  <string name="file_saved_interrupt">Запис зупинено та збережено</string>
   <!-- shown as the message in a dialog when the recording file is discarded -->
+  <string name="file_discard">Файл було відкинуто</string>
 </resources>

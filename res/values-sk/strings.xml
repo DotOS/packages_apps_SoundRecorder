@@ -50,10 +50,10 @@
   <string name="button_ok">OK</string>
   <!-- Do not translate. Format of the timer that shows how much has been recorded so far -->
   <!-- label shown before the user has recorded anything -->
-  <string name="press_record">Press: 0-MIC 2 1-Rx-Tx + Rx 3-AMR 4-EVRC 5-QCELP 6-AAC_MP4 9-AMR-WB A-AMR-WB-3GPP a stlačte nahrávanie</string>
+  <string name="press_record">Stlačte: 0-MIC 2 1-Rx-Tx + Rx 3-AMR 4-EVRC 5-QCELP 6-AAC_MP4 9-AMR-WB A-AMR-WB-3GPP a stlačte nahrávanie</string>
   <string name="press_record2">Stlačte tlačidlo Nahrávanie</string>
   <!-- label shown before the user has recorded anything -SSR support added-->
-  <string name="press_record_ssr">Press: 0-MIC 2 1-Rx-Tx + Rx 3-AMR 4-EVRC 5-QCELP 6-AAC_MP4 9-AMR-WB A-AMR-WB-3GPP a stlačte nahrávanie</string>
+  <string name="press_record_ssr">Stlačte: 0-MIC 2 1-Rx-Tx + Rx 3-AMR 4-EVRC 5-QCELP 6-AAC_MP4 9-AMR-WB A-AMR-WB-3GPP a stlačte nahrávanie</string>
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
   <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->

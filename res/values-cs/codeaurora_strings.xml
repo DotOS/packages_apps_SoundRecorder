@@ -43,9 +43,18 @@
     <item quantity="other">Smazat vybrané položky?</item>
   </plurals>
   <string name="share_title">Sdílet</string>
+  <string name="file_list_activity_label">Seznam záznamů</string>
+  <string name="file_list_empty">Žádné záznamy</string>
+  <string name="file_list_FM">Nahrávání z rádia FM</string>
+  <string name="file_list_call">Nahrávání hovorů</string>
   <string name="action_mode_menu_edit">Upravit</string>
   <string name="action_mode_menu_share">Sdílet</string>
   <string name="action_mode_menu_delete">Smazat</string>
+  <plurals name="action_mode_selected">
+    <item quantity="one">%d položka vybrána</item>
+    <item quantity="few">%d položky vybrány</item>
+    <item quantity="other">%d položek vybráno</item>
+  </plurals>
   <string name="action_mode_select_all">Vybrat vše</string>
   <string name="action_mode_deselect_all">Zrušit výběr všech položek</string>
 </resources>

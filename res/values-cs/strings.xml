@@ -50,8 +50,12 @@
   <string name="button_ok">OK</string>
   <!-- Do not translate. Format of the timer that shows how much has been recorded so far -->
   <!-- label shown before the user has recorded anything -->
+  <string name="press_record">Stiskněte: 0-MIC 2 1-Rx-Tx + Rx 3-AMR 4-EVRC 5-QCELP 6-AAC_MP4 9-AMR-WB A-AMR-WB-3GPP a stiskněte nahrávání</string>
+  <string name="press_record2">Stiskněte tlačítko Nahrávání</string>
   <!-- label shown before the user has recorded anything -SSR support added-->
+  <string name="press_record_ssr">Stiskněte: 0-MIC 1-Rx 2-Tx + Rx 3-AMR 4-EVRC 5-QCELP 6-AAC_MP4 7 AAC_SSR 8 LPCM_SSR 9-AMR-WB A-AMR-WB-3GPP a stiskněte nahrávání</string>
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
   <string name="audio_db_artist_name">Vaše záznamy</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
@@ -63,15 +67,35 @@
   <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card -->
   <string name="error_sdcard_access" product="default">Nelze získat přístup ke kartě SD.</string>
   <!-- shown as the message in a dialog when the recording is interrupted internally -->
+  <string name="error_record_interrupted">Nahrávání přerušeno</string>
   <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
   <string name="error_app_internal">Vnitřní chyba aplikace.</string>
   <!-- shown as the message in a dialog when the app encountered and unsupported format -->
+  <string name="error_app_unsupported">Nepodporovaný formát</string>
   <!-- shown as the message in a dialog when the recording could not be added to the media database -->
   <string name="error_mediadb_new_record">Zaznamenaný zvuk nelze uložit.</string>
   <!-- shown as the message in a dialog when the recording cannot be started while in call -->
+  <string name="error_mediadb_incall">Tato možnost je podporována pouze při volání</string>
   <!-- shown as the message in a dialog when voice call recording is started for AAC format -->
+  <string name="error_mediadb_aacincall">Nahrávání hovoru do AAC není podporováno</string>
   <!-- shown as the dialog title when user selects recording format -->
+  <string name="format_setting">Typ souboru</string>
+  <string name="format_setting_aac_item">AAC</string>
+  <string name="format_setting_amr_item">AMR</string>
+  <string name="format_setting_3gpp_item">3GPP</string>
+  <string name="format_setting_wav_item">WAV</string>
+  <string name="storage_setting">Umístění úložiště</string>
+  <string name="storage_setting_sdcard_item">Karta SD</string>
+  <string name="storage_setting_local_item">Úložiště telefonu</string>
+  <string name="no_phonestorage">Úložiště telefonu není připojené</string>
+  <string name="keyboard">Klávesnice</string>
+  <string name="file_deleted">Soubor byl smazán!</string>
+  <string name="in_call_record_error">Chyba při nahrávání hovoru.</string>
   <!-- Label shown during recording -->
+  <string name="recording_now">Nahrávání ...</string>
   <!-- shown as the message in a dialog when the recording file is saved successfully -->
+  <string name="file_saved">Soubor byl uložen</string>
+  <string name="file_saved_interrupt">Nahrávání bylo zastaveno a uloženo</string>
   <!-- shown as the message in a dialog when the recording file is discarded -->
+  <string name="file_discard">Soubor byl smazán</string>
 </resources>

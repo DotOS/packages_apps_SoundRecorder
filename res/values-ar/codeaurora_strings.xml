@@ -30,6 +30,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Prefix of recording file name, like "Rec", default value is null -->
+  <string name="save_dialog_title">هل تريد حفظ التسجيل؟</string>
+  <string name="rename_dialog_title">إعادة تسمية</string>
+  <string name="rename_dialog_info_null">لا يمكن أن يكون اسم الملف فارغاً.</string>
+  <string name="rename_dialog_info_exists">هذا الاسم موجود مسبقا.</string>
+  <string name="rename_dialog_info_length_limit">الوصول إلى الحد الأقصى لعدد الأحرف.</string>
   <string name="rename_dialog_save">حفظ</string>
   <string name="delete_dialog_confirm">حذف</string>
   <plurals name="delete_selection_message">
@@ -41,9 +46,21 @@
     <item quantity="other">هل تريد حذف العناصر المحددة؟</item>
   </plurals>
   <string name="share_title">مشاركة</string>
+  <string name="file_list_activity_label">قائمة التسجيلات</string>
+  <string name="file_list_empty">لا يوجد تسجيلات</string>
+  <string name="file_list_FM">تسجيل FM</string>
+  <string name="file_list_call">تسجيل المكالمات</string>
   <string name="action_mode_menu_edit">تحرير</string>
   <string name="action_mode_menu_share">مشاركة</string>
   <string name="action_mode_menu_delete">حذف</string>
+  <plurals name="action_mode_selected">
+    <item quantity="zero">%d عنصر محدد</item>
+    <item quantity="one">%d عنصر محدد</item>
+    <item quantity="two">%d عنصر محدد</item>
+    <item quantity="few">%d عنصر محدد</item>
+    <item quantity="many">%d عنصر محدد</item>
+    <item quantity="other">%d عنصر محدد</item>
+  </plurals>
   <string name="action_mode_select_all">تحديد الكل</string>
   <string name="action_mode_deselect_all">إلغاء تحديد الكل</string>
 </resources>

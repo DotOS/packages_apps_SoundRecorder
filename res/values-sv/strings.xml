@@ -17,6 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- application name and title of error dialogs-->
   <string name="app_name">Ljudinspelaren</string>
+  <string name="folder_name">Spelar in</string>
   <!-- Screen title before and during recording -->
   <string name="record_your_message">Spela in ditt meddelande</string>
   <!-- Screen title after recording -->
@@ -24,6 +25,7 @@
   <!-- Screen title while playing back a recording -->
   <string name="review_message">Granska meddelande</string>
   <!-- Label shown during recording -->
+  <string name="recording">Spelar in</string>
   <!-- Label shown when recording is paused -->
   <string name="recording_paused">Pausa</string>
   <!-- Label shown when the recording is stopped for a reason other than the user stopping it (e.g. the sd card was removed) -->
@@ -41,6 +43,7 @@
   <!-- label shown when there is less than 1 minute of space left to record -->
   <string name="sec_available"><xliff:g id="SECONDS">%d</xliff:g> s kvar</string>
   <!-- button to accept the current recording and return it to the caller -->
+  <string name="accept">Klar</string>
   <!-- button to discard the current recording and return to the caller -->
   <string name="discard">Släng</string>
   <!-- acknowlegement button in a number of dialogs -->
@@ -60,15 +63,28 @@
   <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card -->
   <string name="error_sdcard_access" product="default">Det går inte att komma åt SD-kortet.</string>
   <!-- shown as the message in a dialog when the recording is interrupted internally -->
+  <string name="error_record_interrupted">Inspelning avbruten</string>
   <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
   <string name="error_app_internal">Internt programfel.</string>
   <!-- shown as the message in a dialog when the app encountered and unsupported format -->
+  <string name="error_app_unsupported">Formatet stöds inte</string>
   <!-- shown as the message in a dialog when the recording could not be added to the media database -->
   <string name="error_mediadb_new_record">Det gick inte att spara inspelat ljud.</string>
   <!-- shown as the message in a dialog when the recording cannot be started while in call -->
   <!-- shown as the message in a dialog when voice call recording is started for AAC format -->
   <!-- shown as the dialog title when user selects recording format -->
+  <string name="format_setting">Filtyp</string>
+  <string name="format_setting_aac_item">AAC</string>
+  <string name="format_setting_amr_item">AMR</string>
+  <string name="format_setting_3gpp_item">3GPP</string>
+  <string name="format_setting_wav_item">WAV</string>
+  <string name="storage_setting">Lagringsplats</string>
+  <string name="storage_setting_sdcard_item">SD-kort</string>
+  <string name="storage_setting_local_item">Telefonlagring</string>
+  <string name="keyboard">Tangentbord</string>
+  <string name="file_deleted">Filen har tagits bort!</string>
   <!-- Label shown during recording -->
   <!-- shown as the message in a dialog when the recording file is saved successfully -->
+  <string name="file_saved">Filen har sparats</string>
   <!-- shown as the message in a dialog when the recording file is discarded -->
 </resources>

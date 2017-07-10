@@ -30,7 +30,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Prefix of recording file name, like "Rec", default value is null -->
-  <string name="save_dialog_title">Chcete nahrávku uložiť?</string>
+  <string name="save_dialog_title">Chcete uložiť nahrávku?</string>
   <string name="rename_dialog_title">Premenovať</string>
   <string name="rename_dialog_info_null">Názov súboru nemôže byť prázdny.</string>
   <string name="rename_dialog_info_exists">Toto meno už existuje.</string>
@@ -44,10 +44,17 @@
   </plurals>
   <string name="share_title">Zdieľať</string>
   <string name="file_list_activity_label">Zoznam nahrávok</string>
-  <string name="file_list_empty">Ie sú žiadne nahrávky</string>
+  <string name="file_list_empty">Nie sú žiadne nahrávky</string>
+  <string name="file_list_FM">Nahrávky FM rádia</string>
+  <string name="file_list_call">Nahrávky hovorov</string>
   <string name="action_mode_menu_edit">Upraviť</string>
   <string name="action_mode_menu_share">Zdieľať</string>
   <string name="action_mode_menu_delete">Vymazať</string>
+  <plurals name="action_mode_selected">
+    <item quantity="one">%d položka vybraná</item>
+    <item quantity="few">%d položiek vybraných</item>
+    <item quantity="other">%d položiek vybraných</item>
+  </plurals>
   <string name="action_mode_select_all">Vybrať všetko</string>
   <string name="action_mode_deselect_all">Zrušiť výber všetkých položiek</string>
 </resources>
