@@ -43,6 +43,7 @@
   <!-- button to discard the current recording and return to the caller -->
   <string name="discard">Verwerp</string>
   <!-- acknowlegement button in a number of dialogs -->
+  <string name="button_ok">OK</string>
   <!-- Do not translate. Format of the timer that shows how much has been recorded so far -->
   <!-- label shown before the user has recorded anything -->
   <!-- label shown before the user has recorded anything -SSR support added-->

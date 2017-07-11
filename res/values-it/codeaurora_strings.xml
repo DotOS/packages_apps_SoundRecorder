@@ -34,12 +34,12 @@
   <string name="rename_dialog_title">Rinomina</string>
   <string name="rename_dialog_info_null">Il nome del file non può essere vuoto.</string>
   <string name="rename_dialog_info_exists">Il nome è già esistente.</string>
-  <string name="rename_dialog_info_length_limit">Raggiunto il limite massimo di caratteri.</string>
+  <string name="rename_dialog_info_length_limit">Limite massimo dei caratteri raggiunto.</string>
   <string name="rename_dialog_save">Salva</string>
   <string name="delete_dialog_confirm">Elimina</string>
   <plurals name="delete_selection_message">
-    <item quantity="one">Eliminare elemento selezionato?</item>
-    <item quantity="other">Eliminare elementi selezionati?</item>
+    <item quantity="one">Eliminare l\'elemento selezionato?</item>
+    <item quantity="other">Eliminare l\'elemento selezionato?</item>
   </plurals>
   <string name="share_title">Condividi</string>
   <string name="file_list_activity_label">Elenco di registrazione</string>

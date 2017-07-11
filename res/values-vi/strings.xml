@@ -41,6 +41,7 @@
   <!-- label shown when there is less than 1 minute of space left to record -->
   <string name="sec_available"><xliff:g id="SECONDS">%d</xliff:g> giây khả dụng</string>
   <!-- button to accept the current recording and return it to the caller -->
+  <string name="accept">Đã hoàn thành</string>
   <!-- button to discard the current recording and return to the caller -->
   <string name="discard">Hủy</string>
   <!-- acknowlegement button in a number of dialogs -->

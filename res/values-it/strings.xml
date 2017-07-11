@@ -19,7 +19,7 @@
   <string name="app_name">Registratore suoni</string>
   <string name="folder_name">Registrazione in corso</string>
   <!-- Screen title before and during recording -->
-  <string name="record_your_message">Registra il messaggio</string>
+  <string name="record_your_message">Registra il tuo messaggio</string>
   <!-- Screen title after recording -->
   <string name="message_recorded">Messaggio registrato</string>
   <!-- Screen title while playing back a recording -->
@@ -39,9 +39,9 @@
   <!-- label shown when there is no sd card available to record to -->
   <string name="insert_sd_card" product="default">Inserisci una scheda SD</string>
   <!-- label shown when there is more than 1 minute but less than 9 minutes of space left to record -->
-  <string name="min_available"><xliff:g id="MINUTES">%d</xliff:g> min a disposizione</string>
+  <string name="min_available"><xliff:g id="Minutes">%d</xliff:g> minuti disponibili</string>
   <!-- label shown when there is less than 1 minute of space left to record -->
-  <string name="sec_available"><xliff:g id="SECONDS">%d</xliff:g> s a disposizione</string>
+  <string name="sec_available"><xliff:g id="Seconds">%d</xliff:g> secondi disponibili</string>
   <!-- button to accept the current recording and return it to the caller -->
   <string name="accept">Fatto</string>
   <!-- button to discard the current recording and return to the caller -->
@@ -75,7 +75,7 @@
   <!-- shown as the message in a dialog when the recording could not be added to the media database -->
   <string name="error_mediadb_new_record">Impossibile salvare l\'audio registrato.</string>
   <!-- shown as the message in a dialog when the recording cannot be started while in call -->
-  <string name="error_mediadb_incall">Questa opzione è supportata, solo mentre si è in chiamata</string>
+  <string name="error_mediadb_incall">Questa opzione è supportata solo mentre si è in chiamata</string>
   <!-- shown as the message in a dialog when voice call recording is started for AAC format -->
   <string name="error_mediadb_aacincall">La registrazione della chiamata in formato AAC non è supportata</string>
   <!-- shown as the dialog title when user selects recording format -->
@@ -95,7 +95,7 @@
   <string name="recording_now">Registrazione...</string>
   <!-- shown as the message in a dialog when the recording file is saved successfully -->
   <string name="file_saved">Il file è stato salvato</string>
-  <string name="file_saved_interrupt">La registrazione è stata fermata e salvata</string>
+  <string name="file_saved_interrupt">La registrazione è stata interrotta e salvata</string>
   <!-- shown as the message in a dialog when the recording file is discarded -->
   <string name="file_discard">Il file è stato scaricato</string>
 </resources>

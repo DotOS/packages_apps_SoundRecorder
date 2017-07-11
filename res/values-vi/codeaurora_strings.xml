@@ -30,12 +30,14 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Prefix of recording file name, like "Rec", default value is null -->
+  <string name="delete_dialog_confirm">Xoá</string>
   <plurals name="delete_selection_message">
     <item quantity="other">Xóa các mục đã chọn?</item>
   </plurals>
   <string name="share_title">Chia sẻ</string>
   <string name="action_mode_menu_edit">Sửa</string>
   <string name="action_mode_menu_share">Chia sẻ</string>
+  <string name="action_mode_menu_delete">Xoá</string>
   <string name="action_mode_select_all">Chọn tất cả</string>
   <string name="action_mode_deselect_all">Bỏ chọn tất cả</string>
 </resources>

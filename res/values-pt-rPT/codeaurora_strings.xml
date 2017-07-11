@@ -38,21 +38,21 @@
   <string name="rename_dialog_save">Guardar</string>
   <string name="delete_dialog_confirm">Eliminar</string>
   <plurals name="delete_selection_message">
-    <item quantity="one">Excluir o item selecionado?</item>
-    <item quantity="other">Excluir os itens selecionados?</item>
+    <item quantity="one">Eliminar o item selecionado?</item>
+    <item quantity="other">Eliminar os itens selecionados?</item>
   </plurals>
-  <string name="share_title">Compartilhar</string>
+  <string name="share_title">Partilhar</string>
   <string name="file_list_activity_label">Lista de gravações</string>
   <string name="file_list_empty">Nenhuma gravação</string>
   <string name="file_list_FM">Gravação de Rádio FM</string>
   <string name="file_list_call">Gravação de chamadas</string>
   <string name="action_mode_menu_edit">Editar</string>
-  <string name="action_mode_menu_share">Compartilhar</string>
+  <string name="action_mode_menu_share">Partilhar</string>
   <string name="action_mode_menu_delete">Eliminar</string>
   <plurals name="action_mode_selected">
     <item quantity="one">%d item selecionado</item>
     <item quantity="other">%d item selecionados</item>
   </plurals>
   <string name="action_mode_select_all">Selecionar tudo</string>
-  <string name="action_mode_deselect_all">Desmarcar tudo</string>
+  <string name="action_mode_deselect_all">Desmarcar todos</string>
 </resources>
