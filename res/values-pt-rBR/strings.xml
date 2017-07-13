@@ -52,7 +52,7 @@
   <!-- label shown before the user has recorded anything -->
   <string name="press_record">Toque: 0-MIC 1-Rx 2-Tx+Rx 3-AMR 4-EVRC 5-QCELP
     6-AAC_MP4 9-AMR-WB A-AMR-WB-3GPP e pressione gravar</string>
-  <string name="press_record2">Toque em gravar</string>
+  <string name="press_record2">Toque para gravar</string>
   <!-- label shown before the user has recorded anything -SSR support added-->
   <string name="press_record_ssr">Toque: 0-MIC 1-Rx 2-Tx+Rx 3-AMR 4-EVRC 5-QCELP
     6-AAC_MP4 7-AAC_SSR 8-LPCM_SSR 9-AMR-WB A-AMR-WB-3GPP e pressione gravar</string>
