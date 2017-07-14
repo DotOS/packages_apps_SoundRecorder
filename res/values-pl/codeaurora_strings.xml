@@ -30,6 +30,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Prefix of recording file name, like "Rec", default value is null -->
+  <string name="save_dialog_title">Zapisać nagranie?</string>
+  <string name="rename_dialog_title">Zmień nazwę</string>
+  <string name="rename_dialog_info_null">Nazwa pliku nie może być pusta.</string>
+  <string name="rename_dialog_info_exists">Nazwa już istnieje.</string>
+  <string name="rename_dialog_info_length_limit">Osiągnięto limit maksymalnej ilości znaków.</string>
   <string name="rename_dialog_save">Zapisz</string>
   <string name="delete_dialog_confirm">Usuń</string>
   <plurals name="delete_selection_message">
@@ -38,9 +43,18 @@
     <item quantity="other">Usunąć wybrane elementy?</item>
   </plurals>
   <string name="share_title">Udostępnij</string>
+  <string name="file_list_activity_label">Nagrania</string>
+  <string name="file_list_empty">Brak nagrań</string>
+  <string name="file_list_FM">Nagrania FM</string>
+  <string name="file_list_call">Nagrywanie połączenia</string>
   <string name="action_mode_menu_edit">Edytuj</string>
   <string name="action_mode_menu_share">Udostępnij</string>
   <string name="action_mode_menu_delete">Usuń</string>
+  <plurals name="action_mode_selected">
+    <item quantity="one">Wybrano %d element</item>
+    <item quantity="few">Wybrano %d element</item>
+    <item quantity="other">Wybrano %d element</item>
+  </plurals>
   <string name="action_mode_select_all">Zaznacz wszystkie</string>
   <string name="action_mode_deselect_all">Usuń zaznaczenie wszystkich</string>
 </resources>

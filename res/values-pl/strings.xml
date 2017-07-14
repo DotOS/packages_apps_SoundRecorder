@@ -63,15 +63,35 @@
   <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card -->
   <string name="error_sdcard_access" product="default">Brak dostępu do karty SD</string>
   <!-- shown as the message in a dialog when the recording is interrupted internally -->
+  <string name="error_record_interrupted">Nagranie przerwane</string>
   <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
   <string name="error_app_internal">Wewnętrzny błąd aplikacji</string>
   <!-- shown as the message in a dialog when the app encountered and unsupported format -->
+  <string name="error_app_unsupported">Nieobsługiwany format</string>
   <!-- shown as the message in a dialog when the recording could not be added to the media database -->
   <string name="error_mediadb_new_record">Nie można zapisać nagranego dźwięku.</string>
   <!-- shown as the message in a dialog when the recording cannot be started while in call -->
+  <string name="error_mediadb_incall">Ta opcja jest obsługiwana tylko podczas rozmowy</string>
   <!-- shown as the message in a dialog when voice call recording is started for AAC format -->
+  <string name="error_mediadb_aacincall">Zapisywanie połączenia głosowego w formacie AAC jest nieobsługiwane</string>
   <!-- shown as the dialog title when user selects recording format -->
+  <string name="format_setting">Typ pliku</string>
+  <string name="format_setting_aac_item">AAC</string>
+  <string name="format_setting_amr_item">AMR</string>
+  <string name="format_setting_3gpp_item">3GPP</string>
+  <string name="format_setting_wav_item">WAV</string>
+  <string name="storage_setting">Miejsce przechowywania</string>
+  <string name="storage_setting_sdcard_item">Karta SD</string>
+  <string name="storage_setting_local_item">Pamięć telefonu</string>
+  <string name="no_phonestorage">Pamięć telefonu niezamontowana</string>
+  <string name="keyboard">Klawiatura</string>
+  <string name="file_deleted">Plik został usunięty!</string>
+  <string name="in_call_record_error">Błąd w trakcie nagrywania.</string>
   <!-- Label shown during recording -->
+  <string name="recording_now">Nagrywanie...</string>
   <!-- shown as the message in a dialog when the recording file is saved successfully -->
+  <string name="file_saved">Plik został zapisany</string>
+  <string name="file_saved_interrupt">Nagranie zostało zatrzymane i zapisane</string>
   <!-- shown as the message in a dialog when the recording file is discarded -->
+  <string name="file_discard">Plik został odrzucony</string>
 </resources>
