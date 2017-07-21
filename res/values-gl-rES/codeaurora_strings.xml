@@ -35,6 +35,7 @@
   <string name="rename_dialog_info_null">O ficheiro non pode ser nulo.</string>
   <string name="rename_dialog_info_exists">O nome xa existe.</string>
   <string name="rename_dialog_info_length_limit">Número máximo de caracteres alcanado.</string>
+  <string name="rename_dialog_save">Gardar</string>
   <string name="delete_dialog_confirm">Borrar</string>
   <string name="file_list_activity_label">Lista de gravacións</string>
   <string name="file_list_empty">Ningunha gravación</string>

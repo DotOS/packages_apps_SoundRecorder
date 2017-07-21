@@ -40,6 +40,7 @@
   <!-- label shown when there is less than 1 minute of space left to record -->
   <string name="sec_available">Има <xliff:g id="SECONDS">%d</xliff:g> сек</string>
   <!-- button to accept the current recording and return it to the caller -->
+  <string name="accept">Готово</string>
   <!-- button to discard the current recording and return to the caller -->
   <string name="discard">Отхвърляне</string>
   <!-- acknowlegement button in a number of dialogs -->

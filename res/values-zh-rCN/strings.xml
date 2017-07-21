@@ -17,6 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- application name and title of error dialogs-->
   <string name="app_name">录音机</string>
+  <string name="folder_name">正在录音</string>
   <!-- Screen title before and during recording -->
   <string name="record_your_message">录下您的留言</string>
   <!-- Screen title after recording -->
@@ -24,6 +25,7 @@
   <!-- Screen title while playing back a recording -->
   <string name="review_message">查看信息</string>
   <!-- Label shown during recording -->
+  <string name="recording">正在录音</string>
   <!-- Label shown when recording is paused -->
   <string name="recording_paused">暂停</string>
   <!-- Label shown when the recording is stopped for a reason other than the user stopping it (e.g. the sd card was removed) -->

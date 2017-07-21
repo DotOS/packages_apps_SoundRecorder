@@ -71,5 +71,8 @@
   <!-- shown as the dialog title when user selects recording format -->
   <!-- Label shown during recording -->
   <!-- shown as the message in a dialog when the recording file is saved successfully -->
+  <string name="file_saved">Датотека је сачувана</string>
+  <string name="file_saved_interrupt">Снимање је заустављено и сачувано</string>
   <!-- shown as the message in a dialog when the recording file is discarded -->
+  <string name="file_discard">Датотека је одбачена</string>
 </resources>

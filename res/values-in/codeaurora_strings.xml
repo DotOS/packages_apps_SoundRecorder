@@ -30,15 +30,27 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Prefix of recording file name, like "Rec", default value is null -->
+  <string name="save_dialog_title">Simpan rekaman?</string>
+  <string name="rename_dialog_title">Ubah Nama</string>
+  <string name="rename_dialog_info_null">Nama file tidak bisa kosong.</string>
+  <string name="rename_dialog_info_exists">Nama sudah ada.</string>
+  <string name="rename_dialog_info_length_limit">Mencapai batas maksimum karakter.</string>
   <string name="rename_dialog_save">Simpan</string>
   <string name="delete_dialog_confirm">Hapus</string>
   <plurals name="delete_selection_message">
     <item quantity="other">Hapus item yang dipilih?</item>
   </plurals>
   <string name="share_title">Bagikan</string>
+  <string name="file_list_activity_label">Daftar rekaman</string>
+  <string name="file_list_empty">Tidak ada perekaman</string>
+  <string name="file_list_FM">Rekaman FM</string>
+  <string name="file_list_call">Rekaman Panggilan</string>
   <string name="action_mode_menu_edit">Ubah</string>
   <string name="action_mode_menu_share">Bagikan</string>
   <string name="action_mode_menu_delete">Hapus</string>
+  <plurals name="action_mode_selected">
+    <item quantity="other">%d item dipilih</item>
+  </plurals>
   <string name="action_mode_select_all">Pilih semua</string>
   <string name="action_mode_deselect_all">Batalkan semua pilihan</string>
 </resources>

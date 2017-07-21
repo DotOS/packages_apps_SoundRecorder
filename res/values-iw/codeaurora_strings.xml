@@ -30,6 +30,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Prefix of recording file name, like "Rec", default value is null -->
+  <string name="rename_dialog_save">שמור</string>
   <string name="share_title">שיתוף</string>
   <string name="action_mode_menu_edit">ערוך</string>
   <string name="action_mode_menu_share">שיתוף</string>

@@ -61,7 +61,7 @@
   <!-- all recordings will show up in the media database with this 'artist' name -->
   <string name="audio_db_artist_name">As túas gravacións</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
-  <string name="audio_db_album_name">Gravacións de audio</string>
+  <string name="audio_db_album_name">Gravacións de son</string>
   <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="audio_db_playlist_name">As miñas gravacións</string>
   <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card [CHAR LIMIT=NONE] -->
@@ -75,7 +75,7 @@
   <!-- shown as the message in a dialog when the app encountered and unsupported format -->
   <string name="error_app_unsupported">Formato non soportado</string>
   <!-- shown as the message in a dialog when the recording could not be added to the media database -->
-  <string name="error_mediadb_new_record">Non se puido gardar o audio gravado.</string>
+  <string name="error_mediadb_new_record">Non se puido gardar o son gravado.</string>
   <!-- shown as the message in a dialog when the recording cannot be started while in call -->
   <string name="error_mediadb_incall">Esta opción está soportada solo cando se está a chamar</string>
   <!-- shown as the message in a dialog when voice call recording is started for AAC format -->
