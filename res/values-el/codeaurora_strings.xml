@@ -30,6 +30,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Prefix of recording file name, like "Rec", default value is null -->
+  <string name="save_dialog_title">Αποθήκευση εγγραφής;</string>
+  <string name="rename_dialog_title">Μετονομασία</string>
+  <string name="rename_dialog_info_null">Το όνομα του αρχείου δεν μπορεί να είναι κενό.</string>
+  <string name="rename_dialog_info_exists">Αυτό το όνομα ήδη υπάρχει.</string>
+  <string name="rename_dialog_info_length_limit">Φτάσατε το μέγιστο όριο πλήθους χαρακτήρων.</string>
   <string name="rename_dialog_save">Αποθήκευση</string>
   <string name="delete_dialog_confirm">Διαγραφή</string>
   <plurals name="delete_selection_message">
@@ -37,9 +42,17 @@
     <item quantity="other">Διαγραφή επιλεγμένων στοιχείων;</item>
   </plurals>
   <string name="share_title">Κοινοποίηση</string>
+  <string name="file_list_activity_label">Λίστα εγγραφών</string>
+  <string name="file_list_empty">Καμία εγγραφή</string>
+  <string name="file_list_FM">Εγγραφές Ραδιοφώνου FM</string>
+  <string name="file_list_call">Εγγραφές κλήσεων</string>
   <string name="action_mode_menu_edit">Επεξεργασία</string>
   <string name="action_mode_menu_share">Κοινοποίηση</string>
   <string name="action_mode_menu_delete">Διαγραφή</string>
+  <plurals name="action_mode_selected">
+    <item quantity="one">%d επιλεγμένο στοιχείο</item>
+    <item quantity="other">%d επιλεγμένα στοιχεία</item>
+  </plurals>
   <string name="action_mode_select_all">Επιλογή όλων</string>
   <string name="action_mode_deselect_all">Αποεπιλογή όλων</string>
 </resources>

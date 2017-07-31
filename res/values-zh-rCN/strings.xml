@@ -53,7 +53,9 @@
   <string name="press_record">点击开始录音: 0-MIC 1-Rx 2-Tx+Rx 3-AMR 4-EVRC 5-QCELP 6-AAC_MP4 9-AMR-WB A-AMR-WB-3GPP</string>
   <string name="press_record2">点击按键录音</string>
   <!-- label shown before the user has recorded anything -SSR support added-->
+  <string name="press_record_ssr">点击开始录音： 0-MIC 1-Rx 2-Tx+Rx 3-AMR 4-EVRC 5-QCELP 6-AAC_MP4 7-AAC_SSR 8-LPCM_SSR 9-AMR-WB A-AMR-WB-3GPP</string>
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
   <string name="audio_db_artist_name">您的录音</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
@@ -69,10 +71,13 @@
   <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
   <string name="error_app_internal">发生内部应用错误。</string>
   <!-- shown as the message in a dialog when the app encountered and unsupported format -->
+  <string name="error_app_unsupported">不支持的格式</string>
   <!-- shown as the message in a dialog when the recording could not be added to the media database -->
   <string name="error_mediadb_new_record">无法保存录制的音频。</string>
   <!-- shown as the message in a dialog when the recording cannot be started while in call -->
+  <string name="error_mediadb_incall">只有在通话时支持此选项</string>
   <!-- shown as the message in a dialog when voice call recording is started for AAC format -->
+  <string name="error_mediadb_aacincall">不支持 AAC 语音通话录音</string>
   <!-- shown as the dialog title when user selects recording format -->
   <string name="format_setting">文件类型</string>
   <string name="format_setting_aac_item">AAC</string>

@@ -50,8 +50,12 @@
   <string name="button_ok">ΟΚ</string>
   <!-- Do not translate. Format of the timer that shows how much has been recorded so far -->
   <!-- label shown before the user has recorded anything -->
+  <string name="press_record">Πατήστε το πλήκτρο: 0-MIC 2 1-Rx-Tx + Rx 3-AMR 4-EVRC 5-QCELP 6-AAC_MP4 9-AMR-WB A-AMR-WB-3GPP και πατήστε Εγγραφή</string>
+  <string name="press_record2">Πατήστε Εγγραφή</string>
   <!-- label shown before the user has recorded anything -SSR support added-->
+  <string name="press_record_ssr">Πατήστε το πλήκτρο: 0-MIC 2 1-Rx-Tx + Rx 3-AMR 4-EVRC 5-QCELP 6-AAC_MP4 9-AMR-WB A-AMR-WB-3GPP και πατήστε Εγγραφή</string>
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
   <string name="audio_db_artist_name">Οι εγγραφές σας</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
@@ -63,15 +67,35 @@
   <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card -->
   <string name="error_sdcard_access" product="default">Δεν είναι δυνατή η πρόσβαση στην κάρτα SD.</string>
   <!-- shown as the message in a dialog when the recording is interrupted internally -->
+  <string name="error_record_interrupted">Η εγγραφή διακόπηκε</string>
   <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
   <string name="error_app_internal">Εσωτερικό σφάλμα εφαρμογής.</string>
   <!-- shown as the message in a dialog when the app encountered and unsupported format -->
+  <string name="error_app_unsupported">Μη υποστηριζόμενη μορφή</string>
   <!-- shown as the message in a dialog when the recording could not be added to the media database -->
   <string name="error_mediadb_new_record">Δεν ήταν δυνατή η αποθήκευση της ηχογράφησης.</string>
   <!-- shown as the message in a dialog when the recording cannot be started while in call -->
+  <string name="error_mediadb_incall">Αυτή η επιλογή είναι δυνατή μόνο κατά τη διάρκεια κλήσης</string>
   <!-- shown as the message in a dialog when voice call recording is started for AAC format -->
+  <string name="error_mediadb_aacincall">Η εγγραφή φωνητικής κλήσης σε μορφή AAC δεν υποστηρίζεται</string>
   <!-- shown as the dialog title when user selects recording format -->
+  <string name="format_setting">Τύπος αρχείου</string>
+  <string name="format_setting_aac_item">AAC</string>
+  <string name="format_setting_amr_item">AMR</string>
+  <string name="format_setting_3gpp_item">3GPP</string>
+  <string name="format_setting_wav_item">WAV</string>
+  <string name="storage_setting">Θέση αποθήκευσης</string>
+  <string name="storage_setting_sdcard_item">Κάρτα SD</string>
+  <string name="storage_setting_local_item">Αποθηκευτικός χώρος συσκευής</string>
+  <string name="no_phonestorage">Αποθηκευτικός χώρος συσκευής αποπροσαρτημένος</string>
+  <string name="keyboard">Πληκτρολόγιο</string>
+  <string name="file_deleted">Το αρχείο διαγράφηκε!</string>
+  <string name="in_call_record_error">Σφάλμα κατά την ηχογράφηση κλήσης.</string>
   <!-- Label shown during recording -->
+  <string name="recording_now">Πραγματοποιείται εγγραφή...</string>
   <!-- shown as the message in a dialog when the recording file is saved successfully -->
+  <string name="file_saved">Το αρχείο αποθηκεύτηκε</string>
+  <string name="file_saved_interrupt">Η εγγραφή σταμάτησε και αποθηκεύτηκε</string>
   <!-- shown as the message in a dialog when the recording file is discarded -->
+  <string name="file_discard">Το αρχείο απορρίφτηκε</string>
 </resources>

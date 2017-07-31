@@ -30,15 +30,28 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Prefix of recording file name, like "Rec", default value is null -->
+  <string name="save_dialog_title">Menti a felvételt?</string>
+  <string name="rename_dialog_title">Átnevezés</string>
+  <string name="rename_dialog_info_null">A fájl neve nem lehet üres.</string>
+  <string name="rename_dialog_info_exists">A név már létezik.</string>
+  <string name="rename_dialog_info_length_limit">Elérte a maximális karakterszámot.</string>
   <string name="delete_dialog_confirm">Törlés</string>
   <plurals name="delete_selection_message">
     <item quantity="one">Törli a kiválasztott elemet?</item>
     <item quantity="other">Törli a kiválasztott elemeket?</item>
   </plurals>
   <string name="share_title">Megosztás</string>
+  <string name="file_list_activity_label">Felvétellista</string>
+  <string name="file_list_empty">Nincs felvétel</string>
+  <string name="file_list_FM">FM felvételek</string>
+  <string name="file_list_call">Hívásfelvételek</string>
   <string name="action_mode_menu_edit">Szerkesztés</string>
   <string name="action_mode_menu_share">Megosztás</string>
   <string name="action_mode_menu_delete">Törlés</string>
+  <plurals name="action_mode_selected">
+    <item quantity="one">%d elem kiválasztva</item>
+    <item quantity="other">%d elem kiválasztva</item>
+  </plurals>
   <string name="action_mode_select_all">Az összes kijelölése</string>
   <string name="action_mode_deselect_all">Az összes kijelölés törlése</string>
 </resources>

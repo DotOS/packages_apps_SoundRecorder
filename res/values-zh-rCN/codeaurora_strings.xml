@@ -48,6 +48,9 @@
   <string name="action_mode_menu_edit">编辑</string>
   <string name="action_mode_menu_share">分享</string>
   <string name="action_mode_menu_delete">删除</string>
+  <plurals name="action_mode_selected">
+    <item quantity="other">已选择%d个项目</item>
+  </plurals>
   <string name="action_mode_select_all">全选</string>
   <string name="action_mode_deselect_all">取消全选</string>
 </resources>

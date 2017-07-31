@@ -84,17 +84,18 @@
   <string name="format_setting_amr_item">AMR</string>
   <string name="format_setting_3gpp_item">3GPP</string>
   <string name="format_setting_wav_item">WAV</string>
-  <string name="storage_setting">Lokasi Penyimpanan</string>
-  <string name="storage_setting_sdcard_item">Kartu Eksternal</string>
+  <string name="storage_setting">Lokasi penyimpanan</string>
+  <string name="storage_setting_sdcard_item">Kartu SD</string>
   <string name="storage_setting_local_item">Penyimpanan telepon</string>
   <string name="no_phonestorage">Penyimpanan telepon dilepas</string>
   <string name="keyboard">Papan ketik</string>
-  <string name="file_deleted">File telah dihapus!</string>
+  <string name="file_deleted">Berkas telah dihapus!</string>
+  <string name="in_call_record_error">Kesalahan saat merekam panggilan.</string>
   <!-- Label shown during recording -->
-  <string name="recording_now">Merekam sekarang ...</string>
+  <string name="recording_now">Merekam ...</string>
   <!-- shown as the message in a dialog when the recording file is saved successfully -->
   <string name="file_saved">Berkas telah disimpan</string>
   <string name="file_saved_interrupt">Perekaman telah dihentikan dan disimpan</string>
   <!-- shown as the message in a dialog when the recording file is discarded -->
-  <string name="file_discard">Berkas sudah dibatalkan</string>
+  <string name="file_discard">Berkas sudah dibuang</string>
 </resources>
