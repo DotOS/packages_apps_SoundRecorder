@@ -17,6 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- application name and title of error dialogs-->
   <string name="app_name">Înregistrare sunet</string>
+  <string name="folder_name">Înregistrare</string>
   <!-- Screen title before and during recording -->
   <string name="record_your_message">Înregistrați mesajul</string>
   <!-- Screen title after recording -->
@@ -24,6 +25,7 @@
   <!-- Screen title while playing back a recording -->
   <string name="review_message">Consultați mesajul</string>
   <!-- Label shown during recording -->
+  <string name="recording">Înregistrare</string>
   <!-- Label shown when recording is paused -->
   <string name="recording_paused">Pauză</string>
   <!-- Label shown when the recording is stopped for a reason other than the user stopping it (e.g. the sd card was removed) -->
@@ -41,14 +43,21 @@
   <!-- label shown when there is less than 1 minute of space left to record -->
   <string name="sec_available"><xliff:g id="SECONDS">%d</xliff:g> (de) secunde disponibile</string>
   <!-- button to accept the current recording and return it to the caller -->
+  <string name="accept">Efectuat</string>
   <!-- button to discard the current recording and return to the caller -->
   <string name="discard">Renunțați</string>
   <!-- acknowlegement button in a number of dialogs -->
   <string name="button_ok">OK</string>
   <!-- Do not translate. Format of the timer that shows how much has been recorded so far -->
   <!-- label shown before the user has recorded anything -->
+  <string name="press_record">Apăsaţi: 0-MIC 1-Rx 2-Tx+Rx 3-AMR 4-EVRC 5-QCELP
+    6-AAC_MP4 9-AMR-WB A-AMR-WB-3GPP şi apăsaţi înregistrare</string>
+  <string name="press_record2">Apăsaţi înregistrare</string>
   <!-- label shown before the user has recorded anything -SSR support added-->
+  <string name="press_record_ssr">Apăsaţi: 0-MIC 1-Rx 2-Tx+Rx 3-AMR 4-EVRC 5-QCELP
+    6-AAC_MP4 7-AAC_SSR 8-LPCM_SSR 9-AMR-WB A-AMR-WB-3GPP şi apăsaţi înregistrare</string>
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
   <string name="audio_db_artist_name">Înregistrările dvs.</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
@@ -60,15 +69,35 @@
   <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card -->
   <string name="error_sdcard_access" product="default">Nu se poate accesa cardul SD.</string>
   <!-- shown as the message in a dialog when the recording is interrupted internally -->
+  <string name="error_record_interrupted">Înregistrare întreruptă</string>
   <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
   <string name="error_app_internal">Eroare internă de aplicație.</string>
   <!-- shown as the message in a dialog when the app encountered and unsupported format -->
+  <string name="error_app_unsupported">Format neacceptat</string>
   <!-- shown as the message in a dialog when the recording could not be added to the media database -->
   <string name="error_mediadb_new_record">Conținutul audio înregistrat nu a putut fi salvat.</string>
   <!-- shown as the message in a dialog when the recording cannot be started while in call -->
+  <string name="error_mediadb_incall">Această opţiune este acceptată numai în timpul apelului</string>
   <!-- shown as the message in a dialog when voice call recording is started for AAC format -->
+  <string name="error_mediadb_aacincall">Înregistrarea AAC a apelului vocal nu este acceptată</string>
   <!-- shown as the dialog title when user selects recording format -->
+  <string name="format_setting">Tipul fișierului</string>
+  <string name="format_setting_aac_item">AAC</string>
+  <string name="format_setting_amr_item">AMR</string>
+  <string name="format_setting_3gpp_item">3GPP</string>
+  <string name="format_setting_wav_item">WAV</string>
+  <string name="storage_setting">Locația spațiului de stocare</string>
+  <string name="storage_setting_sdcard_item">Card SD</string>
+  <string name="storage_setting_local_item">Stocare telefon</string>
+  <string name="no_phonestorage">Stocare telefon demontată</string>
+  <string name="keyboard">Tastatură</string>
+  <string name="file_deleted">Fișierul a fost șters!</string>
+  <string name="in_call_record_error">Eroare de înregistrare în timpul apelului.</string>
   <!-- Label shown during recording -->
+  <string name="recording_now">Se înregistrează...</string>
   <!-- shown as the message in a dialog when the recording file is saved successfully -->
+  <string name="file_saved">Fişierul a fost salvat</string>
+  <string name="file_saved_interrupt">Înregistrarea a fost oprită şi salvată</string>
   <!-- shown as the message in a dialog when the recording file is discarded -->
+  <string name="file_discard">Fişierul a fost aruncat</string>
 </resources>

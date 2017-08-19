@@ -30,17 +30,29 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Prefix of recording file name, like "Rec", default value is null -->
-  <string name="save_dialog_title">Gardar a grabación?</string>
+  <string name="save_dialog_title">Gardar a gravación?</string>
   <string name="rename_dialog_title">Renomear</string>
   <string name="rename_dialog_info_null">O ficheiro non pode ser nulo.</string>
   <string name="rename_dialog_info_exists">O nome xa existe.</string>
   <string name="rename_dialog_info_length_limit">Número máximo de caracteres alcanado.</string>
   <string name="rename_dialog_save">Gardar</string>
   <string name="delete_dialog_confirm">Borrar</string>
+  <plurals name="delete_selection_message">
+    <item quantity="one">Borrar o elemento seleccionado?</item>
+    <item quantity="other">Borrar os elementos seleccionado?</item>
+  </plurals>
+  <string name="share_title">Compartir</string>
   <string name="file_list_activity_label">Lista de gravacións</string>
   <string name="file_list_empty">Ningunha gravación</string>
   <string name="file_list_FM">Gravacións de radio</string>
   <string name="file_list_call">Gravacións de chamadas</string>
   <string name="action_mode_menu_edit">Editar</string>
+  <string name="action_mode_menu_share">Compartir</string>
   <string name="action_mode_menu_delete">Borrar</string>
+  <plurals name="action_mode_selected">
+    <item quantity="one">%d elemento seleccionado</item>
+    <item quantity="other">%d elementos seleccionados</item>
+  </plurals>
+  <string name="action_mode_select_all">Seleccionar todo</string>
+  <string name="action_mode_deselect_all">Deseleccionar todo</string>
 </resources>

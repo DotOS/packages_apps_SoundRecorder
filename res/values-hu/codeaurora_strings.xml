@@ -35,6 +35,7 @@
   <string name="rename_dialog_info_null">A fájl neve nem lehet üres.</string>
   <string name="rename_dialog_info_exists">A név már létezik.</string>
   <string name="rename_dialog_info_length_limit">Elérte a maximális karakterszámot.</string>
+  <string name="rename_dialog_save">Mentés</string>
   <string name="delete_dialog_confirm">Törlés</string>
   <plurals name="delete_selection_message">
     <item quantity="one">Törli a kiválasztott elemet?</item>

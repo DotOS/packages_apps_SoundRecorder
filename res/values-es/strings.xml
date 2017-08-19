@@ -43,7 +43,7 @@
   <!-- label shown when there is less than 1 minute of space left to record -->
   <string name="sec_available"><xliff:g id="SECONDS">%d</xliff:g> segundos disponibles</string>
   <!-- button to accept the current recording and return it to the caller -->
-  <string name="accept">Realizado</string>
+  <string name="accept">Hecho</string>
   <!-- button to discard the current recording and return to the caller -->
   <string name="discard">Descartar</string>
   <!-- acknowlegement button in a number of dialogs -->

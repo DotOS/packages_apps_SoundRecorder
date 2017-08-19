@@ -17,6 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- application name and title of error dialogs-->
   <string name="app_name">સાઉન્ડ રેકોર્ડર</string>
+  <string name="folder_name">રેકોર્ડિંગ</string>
   <!-- Screen title before and during recording -->
   <string name="record_your_message">તમારો સંદેશ રેકોર્ડ કરો</string>
   <!-- Screen title after recording -->
@@ -24,6 +25,7 @@
   <!-- Screen title while playing back a recording -->
   <string name="review_message">સંદેશની સમીક્ષા કરો</string>
   <!-- Label shown during recording -->
+  <string name="recording">રેકોર્ડિંગ</string>
   <!-- Label shown when recording is paused -->
   <!-- Label shown when the recording is stopped for a reason other than the user stopping it (e.g. the sd card was removed) -->
   <string name="recording_stopped">રેકોર્ડિંગ બંધ કર્યું</string>

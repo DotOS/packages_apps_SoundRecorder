@@ -50,6 +50,7 @@
   <string name="button_ok">OK</string>
   <!-- Do not translate. Format of the timer that shows how much has been recorded so far -->
   <!-- label shown before the user has recorded anything -->
+  <string name="press_record2">Naciśnij Nagraj</string>
   <!-- label shown before the user has recorded anything -SSR support added-->
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
   <!-- all recordings will show up in the media database with this 'artist' name -->

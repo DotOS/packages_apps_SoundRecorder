@@ -30,19 +30,19 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Prefix of recording file name, like "Rec", default value is null -->
-  <string name="save_dialog_title">儲存錄音內容？</string>
+  <string name="save_dialog_title">儲存錄製內容？</string>
   <string name="rename_dialog_title">重新命名</string>
   <string name="rename_dialog_info_null">檔案名稱不能為空。</string>
   <string name="rename_dialog_info_exists">此名稱已存在。</string>
   <string name="rename_dialog_info_length_limit">已達到最大字元限制</string>
-  <string name="rename_dialog_save">保存</string>
+  <string name="rename_dialog_save">儲存</string>
   <string name="delete_dialog_confirm">刪除</string>
   <plurals name="delete_selection_message">
     <item quantity="other">刪除選取的項目？</item>
   </plurals>
   <string name="share_title">分享</string>
-  <string name="file_list_activity_label">錄音清單</string>
-  <string name="file_list_empty">沒有記錄</string>
+  <string name="file_list_activity_label">錄製清單</string>
+  <string name="file_list_empty">沒有錄製</string>
   <string name="file_list_FM">FM 錄音</string>
   <string name="file_list_call">通話錄音</string>
   <string name="action_mode_menu_edit">編輯</string>

@@ -30,14 +30,31 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Prefix of recording file name, like "Rec", default value is null -->
+  <string name="save_dialog_title">Salvați înregistrarea?</string>
+  <string name="rename_dialog_title">Redenumiţi</string>
+  <string name="rename_dialog_info_null">Numele de fișier nu poate fi null.</string>
+  <string name="rename_dialog_info_exists">Numele există deja.</string>
+  <string name="rename_dialog_info_length_limit">Limita de caractere maximă a fost atinsă.</string>
+  <string name="rename_dialog_save">Salvaţi</string>
+  <string name="delete_dialog_confirm">Ștergeţi</string>
   <plurals name="delete_selection_message">
     <item quantity="one">Ștergeţi articolul selectat?</item>
     <item quantity="few">Ștergeţi articolele selectate?</item>
     <item quantity="other">Delete selected items?</item>
   </plurals>
   <string name="share_title">Distribuiţi</string>
+  <string name="file_list_activity_label">Listă înregistrări</string>
+  <string name="file_list_empty">Nu sunt înregistrări</string>
+  <string name="file_list_FM">Înregistrări FM</string>
+  <string name="file_list_call">Înregistrări apeluri</string>
   <string name="action_mode_menu_edit">Editează</string>
   <string name="action_mode_menu_share">Distribuiţi</string>
+  <string name="action_mode_menu_delete">Ștergeţi</string>
+  <plurals name="action_mode_selected">
+    <item quantity="one">%d element selectat</item>
+    <item quantity="few">%d elemente selectate</item>
+    <item quantity="other">%d elemente selectate</item>
+  </plurals>
   <string name="action_mode_select_all">Selectaţi-le pe toate</string>
   <string name="action_mode_deselect_all">Deselectaţi-le pe toate</string>
 </resources>

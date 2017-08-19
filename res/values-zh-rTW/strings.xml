@@ -16,20 +16,20 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- application name and title of error dialogs-->
-  <string name="app_name">錄音程式</string>
-  <string name="folder_name">正在錄製</string>
+  <string name="app_name">錄音機</string>
+  <string name="folder_name">錄製中</string>
   <!-- Screen title before and during recording -->
-  <string name="record_your_message">錄製簡訊</string>
+  <string name="record_your_message">錄製訊息</string>
   <!-- Screen title after recording -->
-  <string name="message_recorded">已錄製簡訊</string>
+  <string name="message_recorded">訊息已錄製</string>
   <!-- Screen title while playing back a recording -->
-  <string name="review_message">檢視簡訊</string>
+  <string name="review_message">檢視訊息</string>
   <!-- Label shown during recording -->
-  <string name="recording">正在錄製</string>
+  <string name="recording">錄製中</string>
   <!-- Label shown when recording is paused -->
   <string name="recording_paused">暫停</string>
   <!-- Label shown when the recording is stopped for a reason other than the user stopping it (e.g. the sd card was removed) -->
-  <string name="recording_stopped">停止錄音</string>
+  <string name="recording_stopped">已停止錄製</string>
   <!-- label shown when there is not enough space to record something -->
   <string name="storage_is_full">儲存空間已滿</string>
   <!-- label shown when the recording has reached maximum allowed file size -->
@@ -52,24 +52,24 @@
   <!-- label shown before the user has recorded anything -->
   <string name="press_record">按下: 0-MIC 1-Rx 2-Tx+Rx 3-AMR 4-EVRC 5-QCELP
     6-AAC_MP4 9-AMR-WB A-AMR-WB-3GPP 然後按下錄音</string>
-  <string name="press_record2">按下以錄音</string>
+  <string name="press_record2">按下以錄製</string>
   <!-- label shown before the user has recorded anything -SSR support added-->
   <string name="press_record_ssr">按下: 0-MIC 1-Rx 2-Tx+Rx 3-AMR 4-EVRC 5-QCELP
-    6-AAC_MP4 7-AAC_SSR 8-LPCM_SSR 9-AMR-WB A-AMR-WB-3GPP 然後按下錄音</string>
+    6-AAC_MP4 7-AAC_SSR 8-LPCM_SSR 9-AMR-WB A-AMR-WB-3GPP 然後按下錄製</string>
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
   <string name="audio_db_title_format"><xliff:g id="format">年-月-日 時:分:秒</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
-  <string name="audio_db_artist_name">您的錄音</string>
+  <string name="audio_db_artist_name">您的錄製</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
-  <string name="audio_db_album_name">錄音</string>
+  <string name="audio_db_album_name">音訊錄製</string>
   <!-- all recordings will show up in the media database in a playlist with this name -->
-  <string name="audio_db_playlist_name">我的錄音</string>
+  <string name="audio_db_playlist_name">我的錄製</string>
   <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card [CHAR LIMIT=NONE] -->
   <string name="error_sdcard_access" product="nosdcard">無法存取 USB 儲存裝置。</string>
   <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card -->
   <string name="error_sdcard_access" product="default">無法存取 SD 卡。</string>
   <!-- shown as the message in a dialog when the recording is interrupted internally -->
-  <string name="error_record_interrupted">錄音中斷。</string>
+  <string name="error_record_interrupted">錄製中斷</string>
   <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
   <string name="error_app_internal">內部應用程式錯誤。</string>
   <!-- shown as the message in a dialog when the app encountered and unsupported format -->
@@ -87,7 +87,7 @@
   <string name="format_setting_3gpp_item">3GPP</string>
   <string name="format_setting_wav_item">WAV</string>
   <string name="storage_setting">儲存位置</string>
-  <string name="storage_setting_sdcard_item">SD卡</string>
+  <string name="storage_setting_sdcard_item">SD 卡</string>
   <string name="storage_setting_local_item">手機儲存空間</string>
   <string name="no_phonestorage">手機儲存空間已卸載</string>
   <string name="keyboard">鍵盤</string>
@@ -97,7 +97,7 @@
   <string name="recording_now">正在錄製…</string>
   <!-- shown as the message in a dialog when the recording file is saved successfully -->
   <string name="file_saved">檔案已儲存</string>
-  <string name="file_saved_interrupt">錄音已被停止並保存</string>
+  <string name="file_saved_interrupt">錄製已被停止並儲存</string>
   <!-- shown as the message in a dialog when the recording file is discarded -->
-  <string name="file_discard">檔案已被丟棄</string>
+  <string name="file_discard">檔案已被捨棄</string>
 </resources>
